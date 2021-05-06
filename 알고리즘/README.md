@@ -10,7 +10,29 @@
 
  *그리디 → 탐색 → 기본 동적 프로그래밍* → 그래프 이론 →  중급 및 고급 동적 프로그래밍 → 문자열
 
+
+
 ---
+
+### 알고리즘 TIP
+
+[goodGid]([https://goodgid.github.io/Prepared-for-Coding-Test/](https://goodgid.github.io/Prepared-for-Coding-Test/))
+
+[DolphaGo]([https://blog.naver.com/adamdoha/222152397666](https://blog.naver.com/adamdoha/222152397666))
+
+
+
+---
+
+### 알고리즘 문제 풀이 순서
+
+1 ) 1초에 1억번 정도 연산이 가능. 따라서 시간 제한과 입력 범위를 확인
+
+‼️2 ) 빅오에 따라 어떤 알고리즘을 쓸 지 선택
+
+
+
+------
 
 ### 개념 정리
 
