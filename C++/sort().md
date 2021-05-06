@@ -1,5 +1,7 @@
 # sort()
 
+
+
 알고리즘 테스트, 대회에서는 정렬 알고리즘을 직접 구현하는 것이 아닌 STL을 이용하는 것이 좋다!
 
 <sort() 함수의 기본 사용법>
@@ -84,5 +86,58 @@ int main(void) {
 	for (int i = 0; i < 5; i++) {
 		cout << students[i].name << ' ';
 	}
+}
+```
+
+------
+
+위와 같은 방식은 프로그래밍 속도 측면에서 유리하지 않다.
+
+프로그래밍 대회에서는 벡터와 페어(Pair)라이브러리를 사용하여 대체할 수 있다.
+
+→정렬할 기준이 2개이하이면 벡터와 페어를 이용하는 것이 좋다.
+
+```c
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+bool compare(pair<string, pair<int, int> > a, pair<string, pair<int, int> > b) {
+	if (a.second.first == b.second.first) {
+		return a.second.second > b.second.second;
+	}
+	else {
+		return a.second.first > b.second.first;
+	}
+}
+
+int main(void) {
+	/* 2개의 변수 pair 응용 */
+	/*
+	vector<pair<int, string>> v;
+	v.push_back(pair<int, string>(90, "아이유"));
+	v.push_back(pair<int, string>(85, "원빈"));
+	v.push_back(pair<int, string>(88, "수지"));
+	v.push_back(pair<int, string>(92, "은혁"));
+	v.push_back(pair<int, string>(98, "동수"));
+	*/
+
+	/* 3개의 변수 pair -> 이중 pair */
+	vector<pair<string, pair<int, int> > > v;
+	v.push_back(pair<string, pair<int, int> >("아이유", pair<int, int>(90, 19981111)));
+	v.push_back(pair<string, pair<int, int> >("원빈", pair<int, int>(93, 19981112)));
+	v.push_back(pair<string, pair<int, int> >("은혁", pair<int, int>(98, 19981113)));
+	v.push_back(pair<string, pair<int, int> >("수지", pair<int, int>(93, 19981114)));
+	v.push_back(pair<string, pair<int, int> >("동수", pair<int, int>(90, 19981115)));
+
+	sort(v.begin(), v.end(), compare);
+
+	for (int i = 0; i < v.size(); i++) {
+		cout << v[i].first << ' ';
+	}
+
+	return 0;
 }
 ```
