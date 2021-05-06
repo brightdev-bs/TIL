@@ -16,9 +16,9 @@
 
 ### 알고리즘 TIP
 
-[goodGid](https://goodgid.github.io/Prepared-for-Coding-Test/](https://goodgid.github.io/Prepared-for-Coding-Test/)
+[goodGid](https://goodgid.github.io/Prepared-for-Coding-Test/)
 
-[DolphaGo](https://blog.naver.com/adamdoha/222152397666](https://blog.naver.com/adamdoha/222152397666)
+[DolphaGo](https://blog.naver.com/adamdoha/222152397666)
 
 
 
