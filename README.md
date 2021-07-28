@@ -1,6 +1,7 @@
-# TIL
-Today I learned
+# <p align="cetner">Today I learned</p>
+<p align="center"><img src="https://img.shields.io/badge/Java-black?style=for-the-badge&logo=Java&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"></p>
 
-# List
-[Algorithm](https://github.com/brightdev-bs/TIL/tree/main/Algorithm/C%2B%2B)
+
+
+#### Java의 정석 (남궁 성)
 
