@@ -1,12 +1,15 @@
 package com.mango;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.sql.SQLException;
 
-public class Main {
-
+public class UserDaoTest {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-	// write your code here
-        UserDao dao = new UserDao();
+        ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
+        // write your code here
+        UserDao dao = context.getBean("userDao", UserDao.class);
 
         User user = new User();
         user.setId("whiteship");
