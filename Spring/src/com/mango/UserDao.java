@@ -6,8 +6,8 @@ public class UserDao {
     private ConnectionMaker connectionMaker;
 
     /* 상태를 관리하는 것이 아니기 때문에 한 번만 만들어 인스턴스 변수에 저장하고 메소드에서 사용한다 */
-    public UserDao() {
-        connectionMaker = new DconnectionMaker(); // -> 클래스 이름이 나오는 문제 발생!
+    public UserDao(ConnectionMaker connectionMaker) {
+        this.connectionMaker = connectionMaker;
     }
 
     public void add(User user) throws ClassNotFoundException, SQLException {

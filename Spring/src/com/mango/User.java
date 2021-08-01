@@ -1,6 +1,7 @@
 package com.mango;
 
 public class User {
+
     String id;
     String name;
     String password;
