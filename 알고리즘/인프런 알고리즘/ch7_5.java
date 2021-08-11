@@ -30,11 +30,12 @@ public class Main {
     // 후위순회
 
     public void DFS(Node node){
-        if(node.lt != null)
+        if(node==null) return;
+        else {
             DFS(node.lt);
-        if(node.rt != null)
             DFS(node.rt);
-        System.out.println(node.data);
+            System.out.println(node.data);
+        }
     }
 
     public static void main(String[] args) {
