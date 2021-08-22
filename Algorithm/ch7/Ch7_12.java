@@ -1,12 +1,11 @@
-package com.mango;
+package com.mango.ch7;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+
 import java.util.Scanner;
 
 
-public class Main{
+class Main{
     static int n, m, answer=0;
     static ArrayList<ArrayList<Integer>> graph;
     static int[] ch;

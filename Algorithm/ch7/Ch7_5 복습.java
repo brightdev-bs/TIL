@@ -28,7 +28,7 @@ public class Main{
     }
 
     public static void main(String args[]) {
-        Main tree = new Main();
+        com.mango.ch7.Main tree = new com.mango.ch7.Main();
         Scanner sc = new Scanner(System.in);
 
         tree.root=new Node(1);

@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main m = new Main();
+        com.mango.ch7.Main m = new com.mango.ch7.Main();
         Scanner sc = new Scanner(System.in);
 
         for(int n = 1; n <= 45; n++) {

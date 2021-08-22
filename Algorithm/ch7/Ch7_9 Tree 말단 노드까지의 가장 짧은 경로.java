@@ -35,7 +35,7 @@ public class Main{
     }
 
     public static void main(String args[]) {
-        Main tree=new Main();
+        com.mango.ch7.Main tree=new com.mango.ch7.Main();
         tree.root=new Node(1);
         tree.root.lt=new Node(2);
         tree.root.rt=new Node(3);

@@ -13,7 +13,7 @@ public class Main{
     }
 
     public static void main(String args[]) {
-        Main T = new Main();
+        com.mango.ch7.Main T = new com.mango.ch7.Main();
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();

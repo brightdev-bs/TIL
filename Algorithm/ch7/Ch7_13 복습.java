@@ -36,7 +36,7 @@ public class Main{
     }
 
     public static void main(String args[]) {
-        Main T = new Main();
+        com.mango.ch7.Main T = new com.mango.ch7.Main();
         Scanner kb = new Scanner(System.in);
         n=kb.nextInt();
         m=kb.nextInt();
