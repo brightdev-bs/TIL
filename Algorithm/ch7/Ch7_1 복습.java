@@ -1,4 +1,4 @@
-package com.mango;
+package ch7;
 
 /**
  * 8월 19일 복습.
@@ -18,7 +18,7 @@ public class Main{
     }
 
     public static void main(String args[]) {
-        com.mango.ch7.Main T = new com.mango.ch7.Main();
+        Main T = new com.mango.ch7.Main();
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
