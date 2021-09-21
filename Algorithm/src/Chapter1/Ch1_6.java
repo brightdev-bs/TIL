@@ -15,7 +15,7 @@ public class Ch1_6 {
             int index = c - 'a';
             if(ch[index] == 0) {
                 ch[index] = 1;
-                answer += ch[index];
+                answer += c;
             }
         }
 

@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="594d5fd4-b290-4385-afb0-0ca8c8543ad4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch6/Ch6_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter6/Ch6_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch6/Ch6_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter6/Ch6_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_1 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_1 복습.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_13 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_13 복습.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_2 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_2 복습.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_4 1차개선.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_4 1차개선.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_4 2차개선(메모이제이션).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_4 2차개선(메모이제이션).java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_4 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_4 복습.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_4 피보나치(재귀).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_4 피보나치(재귀).java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_5 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_5 복습.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch7_9 Tree 말단 노드까지의 가장 짧은 경로.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch7_9 Tree 말단 노드까지의 가장 짧은 경로.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/Ch_7_3 복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Ch_7_3 복습.java" afterDir="false" />
-    </list>
+    <list default="true" id="594d5fd4-b290-4385-afb0-0ca8c8543ad4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632203348968</updated>
       <workItem from="1632203350095" duration="28000" />
+      <workItem from="1632203425086" duration="298000" />
     </task>
     <servers />
   </component>
@@ -95,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
