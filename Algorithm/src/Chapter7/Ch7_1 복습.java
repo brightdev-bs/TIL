@@ -1,4 +1,4 @@
-package ch7;
+package Chapter7;
 
 /**
  * 8월 19일 복습.
