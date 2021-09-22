@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="594d5fd4-b290-4385-afb0-0ca8c8543ad4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_3_Feedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_3_Feedback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_4_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_7_feedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_7_feedback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Chapter1/Ch1_8.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +32,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.RegexEx1">
-    <configuration name="Ch1_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_6" />
+  <component name="RunManager" selected="Application.Ch1_12">
+    <configuration name="Ch1_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_10" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +46,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch1_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_7" />
+    <configuration name="Ch1_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_11" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch1_7_feedback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_7_feedback" />
+    <configuration name="Ch1_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_12" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch1_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_8" />
+    <configuration name="Ch1_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_9" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -109,26 +98,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ch1_12" />
+        <item itemvalue="Application.Ch1_11" />
+        <item itemvalue="Application.Ch1_10" />
+        <item itemvalue="Application.Ch1_9" />
         <item itemvalue="Application.RegexEx1" />
-        <item itemvalue="Application.Ch1_8" />
-        <item itemvalue="Application.Ch1_7_feedback" />
-        <item itemvalue="Application.Ch1_7" />
-        <item itemvalue="Application.Ch1_6" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +129,8 @@
       <updated>1632203348968</updated>
       <workItem from="1632203350095" duration="28000" />
       <workItem from="1632203425086" duration="362000" />
-      <workItem from="1632277481768" duration="2927000" />
+      <workItem from="1632277481768" duration="3022000" />
+      <workItem from="1632292301070" duration="3869000" />
     </task>
     <servers />
   </component>
@@ -168,6 +156,11 @@
           <url>file://$PROJECT_DIR$/src/chapter1/Ch1_7_feedback.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter1/Ch1_10.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
