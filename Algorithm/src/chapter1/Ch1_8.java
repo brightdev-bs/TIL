@@ -1,6 +1,5 @@
-package Chapter1;
+package chapter1;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 

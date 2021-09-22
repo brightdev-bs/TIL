@@ -34,11 +34,11 @@
   </component>
   <component name="RunManager" selected="Application.Ch1_8">
     <configuration name="Ch1_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Ch1_6" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,11 +47,11 @@
       </method>
     </configuration>
     <configuration name="Ch1_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Ch1_7" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_7" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,11 +60,11 @@
       </method>
     </configuration>
     <configuration name="Ch1_7_feedback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Ch1_7_feedback" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_7_feedback" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +73,11 @@
       </method>
     </configuration>
     <configuration name="Ch1_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Ch1_8" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.Ch1_8" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter1.*" />
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
