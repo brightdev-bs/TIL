@@ -4,32 +4,28 @@ import java.util.Scanner;
 
 public class Ch2_6 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        int[] revArr = new int[n];
-
-        for(int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+    public static boolean isPrime(int n) {
+        if(n==1) return false;
+        for(int i = 2; i < n; i++) {
+            if(n % i == 0) return false;
         }
-
-        for(int i = 0; i < n; i++) {
-            int tmp = arr[i];
-            revArr[i] = reverse(tmp);
-        }
-
-        // 소수 인지 확인해야 함.
-
+        return true;
     }
 
-    public static int reverse(int n) {
-        String s = "";
-        while(n > 0) {
-            s += n % 10;
-            n = n / 10;
+    public static void main(String[] args) {
+        Scanner sc  = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        String[] arr = new String[n];
+        for(int i = 0; i < n; i++) {
+            arr[i] = new StringBuilder(sc.next()).reverse().toString();
         }
-        return Integer.valueOf(s);
+
+
+        for(int i = 0; i < n; i++) {
+            int num = Integer.parseInt(arr[i]);
+            if(isPrime(num)) System.out.print(num + " ");
+            //if(ch[num] == 0) System.out.print(num + " ");
+        }
     }
 }
