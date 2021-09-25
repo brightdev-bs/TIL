@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="594d5fd4-b290-4385-afb0-0ca8c8543ad4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chapter2/Ch2_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chapter2/Ch2_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Ch2_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/chapter2/Ch2_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/chapter2/Ch2_10.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Ch2_10">
+  <component name="RunManager" selected="Application.Ch2_12">
     <configuration name="Ch2_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter2.Ch2_10" />
       <module name="Algorithm" />
@@ -56,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch2_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.Ch2_6" />
+    <configuration name="Ch2_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.Ch2_11" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch2_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.Ch2_7" />
+    <configuration name="Ch2_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.Ch2_12" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ch2_12" />
+        <item itemvalue="Application.Ch2_11" />
         <item itemvalue="Application.Ch2_10" />
         <item itemvalue="Application.Ch2_9" />
         <item itemvalue="Application.Ch2_8" />
-        <item itemvalue="Application.Ch2_7" />
-        <item itemvalue="Application.Ch2_6" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +147,9 @@
       <workItem from="1632372158176" duration="4000" />
       <workItem from="1632395703149" duration="2279000" />
       <workItem from="1632455293632" duration="2471000" />
+      <workItem from="1632465215003" duration="39000" />
+      <workItem from="1632477980139" duration="5441000" />
+      <workItem from="1632535234290" duration="1060000" />
     </task>
     <servers />
   </component>
@@ -165,6 +180,22 @@
           <url>file://$PROJECT_DIR$/src/chapter1/Ch1_10.java</url>
           <line>8</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/chapter2/Ch2_12.java</url>
+          <line>6</line>
+          <properties class="chapter2.Ch2_12" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/chapter2/Ch2_11.java</url>
+          <line>8</line>
+          <properties class="chapter2.Ch2_11" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
