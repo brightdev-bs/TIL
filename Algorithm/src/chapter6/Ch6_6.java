@@ -1,5 +1,6 @@
 package chapter6;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ch6_6 {
@@ -14,8 +15,15 @@ public class Ch6_6 {
             arr[i] = sc.nextInt();
         }
 
-        for(int i = 0; i < n; i++) {
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i = 0; i < n-1; i++) {
+            if(arr[i+1] < arr[i])
+                if(list.size() == 0) list.add(i+1);
+                else list.add(i+2);
+        }
 
+        for(int x : list) {
+            System.out.print(x + " ");
         }
     }
 }
