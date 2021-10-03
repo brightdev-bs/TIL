@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="594d5fd4-b290-4385-afb0-0ca8c8543ad4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6/Ch6_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +40,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Ch6_10">
-    <configuration name="Ch6_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_10" />
+  <component name="RunManager" selected="Application.Ch7_6">
+    <configuration name="Ch7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch6_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_7" />
+    <configuration name="Ch7_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_3" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch6_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_8" />
+    <configuration name="Ch7_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_4" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch6_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_9" />
+    <configuration name="Ch7_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_5" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,37 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch6_9_reminder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_9_reminder" />
+    <configuration name="Ch7_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ch6_10" />
-        <item itemvalue="Application.Ch6_9_reminder" />
-        <item itemvalue="Application.Ch6_9" />
-        <item itemvalue="Application.Ch6_8" />
-        <item itemvalue="Application.Ch6_7" />
+        <item itemvalue="Application.Ch7_6" />
+        <item itemvalue="Application.Ch7_5" />
+        <item itemvalue="Application.Ch7_4" />
+        <item itemvalue="Application.Ch7_3" />
+        <item itemvalue="Application.Ch7_2" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +162,11 @@
       <workItem from="1633097415851" duration="26000" />
       <workItem from="1633097824441" duration="801000" />
       <workItem from="1633157597689" duration="90000" />
-      <workItem from="1633158704881" duration="4063000" />
+      <workItem from="1633158704881" duration="4241000" />
+      <workItem from="1633174990091" duration="602000" />
+      <workItem from="1633226573561" duration="1205000" />
+      <workItem from="1633239962646" duration="4289000" />
+      <workItem from="1633249030869" duration="1000" />
     </task>
     <servers />
   </component>
