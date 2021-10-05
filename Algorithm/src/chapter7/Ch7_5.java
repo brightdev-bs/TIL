@@ -1,5 +1,4 @@
 package chapter7;
-
 class Node{
     int data;
     Node lt, rt;
