@@ -6,17 +6,7 @@ import java.io.IOException;
 public class MyIdea {
 
     public static void main(String[] args){
-
-    }
-
-    public static String readText(String filename) {
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-
-        }
-        
+        MyIdea idea = new MyIdea();
+        System.out.println(idea.getClass().getResource("/network/ping.jpg"));
     }
 }
