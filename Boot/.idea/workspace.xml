@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645c06c5-dd3e-44ad-b854-ef91ec9c64b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/TIL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Boot_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/.idea/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/lib.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/lib.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/src/MyIdea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/src/MyIdea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/EnablePrac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/JButtonEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/star.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +59,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21609196" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

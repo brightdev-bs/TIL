@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5bb16db-a913-425e-a977-c8fb80593c96" name="Default Changelist" comment="" />
+    <list default="true" id="a5bb16db-a913-425e-a977-c8fb80593c96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/EnablePrac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/JButtonEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/GUI/jcomponent/star.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
