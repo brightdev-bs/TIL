@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645c06c5-dd3e-44ad-b854-ef91ec9c64b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/TIL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Boot_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/Spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/lib.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/lib.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice/src/MyIdea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/src/MyIdea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +38,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="20lF1jHyorZTgUQu3bQrvnOUup6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,19 +53,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21609196" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\brigh\Desktop\DevDiary\TIL\Boot\src\main\java" />
       <recent name="C:\Users\brigh\Desktop\DevDiary\TIL\Boot\gradle" />
+      <recent name="C:\Users\brigh\Desktop\DevDiary\TIL\Boot\gradle\gradle" />
+      <recent name="C:\Users\brigh\Desktop\DevDiary\TIL\Boot\src\main\java" />
       <recent name="C:\Users\brigh\Desktop\DevDiary\TIL\Boot\src\main\java\Servlet" />
     </key>
   </component>
@@ -79,17 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JavaConfigSpringApp" />
@@ -108,7 +121,12 @@
       <updated>1636611056150</updated>
       <workItem from="1636611063884" duration="6052000" />
       <workItem from="1636634449050" duration="5000" />
-      <workItem from="1637413848797" duration="2420000" />
+      <workItem from="1637413848797" duration="2684000" />
+      <workItem from="1637480342318" duration="2000" />
+      <workItem from="1637491515468" duration="355000" />
+      <workItem from="1637491886695" duration="722000" />
+      <workItem from="1637492628286" duration="347000" />
+      <workItem from="1637579366123" duration="3000" />
     </task>
     <servers />
   </component>
