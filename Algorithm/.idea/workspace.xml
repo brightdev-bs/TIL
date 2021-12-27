@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9_reminder3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9_reminder3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter7/check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_8_reminder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_8_reminder2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/As.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/MyIdea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/src/network/sum/URLExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,35 +45,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Ch7_8_reminder2">
-    <configuration name="Ch6_10_reminder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_10_reminder2" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch6_9_reminder3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.Ch6_9_reminder3" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch7_6_reminder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_6_reminder2" />
+  <component name="RunManager" selected="Application.Ch7_12_reminder2">
+    <configuration name="Ch7_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_10" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +59,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch7_7_reminder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_7_reminder" />
+    <configuration name="Ch7_10_reminder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_10_reminder2" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch7_11_reminder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_11_reminder2" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch7_12_reminder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ch7_12_reminder2" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ch7_12_reminder2" />
+        <item itemvalue="Application.Ch7_11_reminder2" />
+        <item itemvalue="Application.Ch7_10_reminder2" />
+        <item itemvalue="Application.Ch7_10" />
         <item itemvalue="Application.Ch7_8_reminder2" />
-        <item itemvalue="Application.Ch7_7_reminder" />
-        <item itemvalue="Application.Ch7_6_reminder2" />
-        <item itemvalue="Application.Ch6_9_reminder3" />
-        <item itemvalue="Application.Ch6_10_reminder2" />
       </list>
     </recent_temporary>
   </component>
