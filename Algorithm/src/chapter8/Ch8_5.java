@@ -17,21 +17,20 @@ public class Ch8_5 {
 
         m = sc.nextInt();
         check = new int[m + 1];
-
-        for(int coin : coins) {
-            for(int i = coin; i <= m; i++) {
-                check[i] = check[i - coin] + 1;
-            }
+        for(int i = 1; i <= m; i++) {
+            check[i] = Integer.MAX_VALUE;
         }
 
-//        for (int i = 0; i < n; i++) {
-//            update(coins[i]);
+        for(int coin : coins) {
+            check[coin] = 1;
+            for(int idx = coin; idx <= m; idx++) {
+                check[idx] = Math.min(check[idx], check[idx-coin] + 1);
+            }
 //            for(int x : check) {
 //                System.out.print(x + " ");
 //            }
 //            System.out.println();
-//        }
-
+        }
         System.out.println(check[m]);
     }
 
