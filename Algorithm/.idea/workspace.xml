@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2178.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2178.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,39 +41,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Ch8_15">
+  <component name="RunManager" selected="Application.SortEx">
     <configuration name="B2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.B2178" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch8_10_BFS_Reminder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.Ch8_10_BFS_Reminder" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch8_10_DFS_Reminder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.Ch8_10_DFS_Reminder" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,13 +81,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.P_1" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.SortEx" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortEx" />
+        <item itemvalue="Application.P_1" />
         <item itemvalue="Application.Ch8_15" />
         <item itemvalue="Application.CombinationPractice" />
         <item itemvalue="Application.B2178" />
-        <item itemvalue="Application.Ch8_10_BFS_Reminder" />
-        <item itemvalue="Application.Ch8_10_DFS_Reminder" />
       </list>
     </recent_temporary>
   </component>
