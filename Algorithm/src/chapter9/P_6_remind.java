@@ -3,8 +3,8 @@ package chapter9;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class P_6 {
-
+public class P_6_remind {
+    static ArrayList<Relation> list;
     static int[] ch;
 
     static class Relation {
@@ -16,44 +16,45 @@ public class P_6 {
         }
     }
 
-    public static int find(int f1) {
-        if(ch[f1] == f1) return f1;
-        else return find(ch[f1]);
+    public static int find(int num) {
+        if(ch[num] == num) return num;
+        else return find(ch[num]);
     }
-    
-    public static void solution(int f1, int f2, ArrayList<Relation> list) {
+
+    public static void solution(int f1, int f2) {
         for(Relation r : list) {
-            int v1 = find(r.first);
-            int v2 = find(r.second);
-            if(v1 != v2)  ch[v2] = v1;
+            int a = find(r.first);
+            int b = find(r.second);
+            if(a != b) ch[b] = a;
         }
 
-        if(find(ch[f1]) == find(ch[f2])) System.out.println("YES");
+        if(ch[f1] == ch[f2]) System.out.println("YES");
         else System.out.println("NO");
 
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
         int m = sc.nextInt();
 
+
         ch = new int[n+1];
-        for(int i = 1; i < n+1; i++) {
+        for(int i = 0; i <= n; i++) {
             ch[i] = i;
         }
 
-        ArrayList<Relation> list = new ArrayList<>();
-        for(int i = 0; i < m; i++) {
-            int f = sc.nextInt();
-            int s = sc.nextInt();
-            list.add(new Relation(f, s));
+        list = new ArrayList<>();
+        for(int i = 0; i < m - 1; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            list.add(new Relation(a, b));
         }
 
         int f1 = sc.nextInt();
         int f2 = sc.nextInt();
 
-        solution(f1, f2, list);
-
+        solution(f1, f2);
     }
 }
