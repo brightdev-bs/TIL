@@ -1,59 +1,66 @@
 package chapter9;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class P_5 {
+    static ArrayList<ArrayList<Edge>> graph;
+    static int[] dis;
 
-    static int[] ch;
+    static class Edge implements Comparable<Edge> {
+        int vertex, cost;
 
-    static class Relation {
-        int first, second;
+        public Edge(int first, int second) {
+            this.vertex = first;
+            this.cost = second;
+        }
 
-        public Relation(int first, int second) {
-            this.first = first;
-            this.second = second;
+        @Override
+        public int compareTo(Edge o) {
+            return this.cost - o.cost;
         }
     }
 
-    public static int find(int f1) {
-        if(ch[f1] == f1) return f1;
-        else return find(ch[f1]);
-    }
-    
-    public static void solution(int f1, int f2, ArrayList<Relation> list) {
-        for(Relation r : list) {
-            int v1 = find(r.first);
-            int v2 = find(r.second);
-            if(v1 != v2)  ch[v1] = v2;
+    public static void solution(int v) {
+        PriorityQueue<Edge> pq = new PriorityQueue<>();
+        pq.offer(new Edge(v, 0));
+        dis[v] = 0;
+        while(!pq.isEmpty()) {
+            Edge tmp = pq.poll();
+            int cp = tmp.vertex;
+            int currentCost = tmp.cost;
+            if(currentCost > dis[cp])
+            for(Edge ob : graph.get(cp)) {
+                if(dis[ob.vertex] > ob.cost) {
+                    dis[ob.vertex] = ob.cost + currentCost;
+                    pq.offer(new Edge(ob.vertex, currentCost + ob.cost));
+                }
+            }
         }
-
-        if(find(ch[f1]) == find(ch[f2])) System.out.println("YES");
-        else System.out.println("NO");
-
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        ch = new int[n+1];
-        for(int i = 1; i < n+1; i++) {
-            ch[i] = i;
+        graph = new ArrayList<ArrayList<Edge>>();
+
+        for(int i = 0; i <= n; i++) {
+            graph.add(new ArrayList<Edge>());
         }
 
-        ArrayList<Relation> list = new ArrayList<>();
+        dis = new int[n + 1];
+        Arrays.fill(dis, Integer.MAX_VALUE);
+
         for(int i = 0; i < m; i++) {
-            int f = sc.nextInt();
-            int s = sc.nextInt();
-            list.add(new Relation(f, s));
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c=  sc.nextInt();
+            graph.get(a).add(new Edge(b,c));
         }
-
-        int f1 = sc.nextInt();
-        int f2 = sc.nextInt();
-
-        solution(f1, f2, list);
-
     }
 }
