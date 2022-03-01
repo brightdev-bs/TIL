@@ -44,9 +44,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.MST01">
-    <configuration name="B10021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B10021" />
+  <component name="RunManager" selected="Application.B12865">
+    <configuration name="B12865" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B12865" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B12865" />
         <item itemvalue="Application.MST01" />
         <item itemvalue="Application.MST02" />
         <item itemvalue="Application.UnionFind01" />
         <item itemvalue="Application.Dijkstra01" />
-        <item itemvalue="Application.B10021" />
       </list>
     </recent_temporary>
   </component>
