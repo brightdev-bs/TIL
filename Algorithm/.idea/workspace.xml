@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B7569.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/B7569.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +49,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
-  <component name="RunManager" selected="Application.B7576">
-    <configuration name="B2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2606" />
+  <component name="RunManager" selected="Application.B5014">
+    <configuration name="B1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B1697" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2749" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2749" />
+    <configuration name="B5014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B5014" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B7576" />
+        <item itemvalue="Application.B5014" />
+        <item itemvalue="Application.B1697" />
         <item itemvalue="Application.B7569" />
+        <item itemvalue="Application.B7576" />
         <item itemvalue="Application.B2644" />
-        <item itemvalue="Application.B2606" />
-        <item itemvalue="Application.B2749" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +176,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="7" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/chapter6/Ch6_4_reminder.java</url>
