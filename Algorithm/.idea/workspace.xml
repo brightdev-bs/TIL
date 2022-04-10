@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/B7569.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/B7569.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B5014.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B5014.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
-  <component name="RunManager" selected="Application.B5014">
+  <component name="RunManager" selected="Application.B2468">
     <configuration name="B1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.B1697" />
       <module name="untitled104" />
@@ -65,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2644" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2644" />
+    <configuration name="B2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B2468" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B2468" />
         <item itemvalue="Application.B5014" />
         <item itemvalue="Application.B1697" />
         <item itemvalue="Application.B7569" />
         <item itemvalue="Application.B7576" />
-        <item itemvalue="Application.B2644" />
       </list>
     </recent_temporary>
   </component>
