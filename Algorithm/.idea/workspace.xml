@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2468.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2468.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
-  </component>
-  <component name="RunManager" selected="Application.B2573A">
-    <configuration name="B2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2468" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vanilla/Desktop/dev/TIL/Algorithm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.B10828">
+    <configuration name="B10815" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B10815" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2501" />
+    <configuration name="B10828" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B10828" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2573" />
+    <configuration name="B14503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B14503" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2573A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B2573A" />
+    <configuration name="B9205" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.B9205" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B5014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B5014" />
+    <configuration name="P_6_RE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.P_6_RE" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B2573A" />
-        <item itemvalue="Application.B2501" />
-        <item itemvalue="Application.B2573" />
-        <item itemvalue="Application.B2468" />
-        <item itemvalue="Application.B5014" />
+        <item itemvalue="Application.B10828" />
+        <item itemvalue="Application.B10815" />
+        <item itemvalue="Application.P_6_RE" />
+        <item itemvalue="Application.B14503" />
+        <item itemvalue="Application.B9205" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +146,12 @@
       <workItem from="1635315791762" duration="3520000" />
       <workItem from="1635322838106" duration="80000" />
       <workItem from="1635691330655" duration="2000" />
+      <workItem from="1650965044554" duration="2580000" />
+      <workItem from="1651036439989" duration="1878000" />
+      <workItem from="1651563885382" duration="2889000" />
+      <workItem from="1651619398986" duration="2085000" />
+      <workItem from="1651621496319" duration="1110000" />
+      <workItem from="1651622691097" duration="443000" />
     </task>
     <servers />
   </component>
