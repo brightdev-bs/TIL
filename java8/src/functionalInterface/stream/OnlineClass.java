@@ -1,5 +1,7 @@
 package functionalInterface.stream;
 
+import java.util.Optional;
+
 public class OnlineClass {
 
     private Integer id;
@@ -7,6 +9,8 @@ public class OnlineClass {
     private String title;
 
     private boolean closed;
+
+    public Progress progress;
 
     public OnlineClass(Integer id, String title, boolean closed) {
         this.id = id;
@@ -34,7 +38,16 @@ public class OnlineClass {
         return closed;
     }
 
+    public Optional<Progress> getProgress() {
+        return Optional.empty();
+    }
+
+    public void setProgress(Progress progress) {
+        this.progress = progress;
+    }
+
     public void setClosed(boolean closed) {
         this.closed = closed;
     }
 }
+
