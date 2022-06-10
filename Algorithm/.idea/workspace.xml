@@ -6,7 +6,457 @@
   <component name="ChangeListManager">
     <list default="true" id="3697f620-f711-4f23-a349-a4ec6a951657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B10021$Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B10021.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B10815.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B10828.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B10830.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B11051.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B11401.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1260.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B12865.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B14503.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1629.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1655.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1697.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1759.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B1987.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2178$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2178.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2468.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2501.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2538.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A$Iceberg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2573A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2580.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2606.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2644.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B2667.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B3179$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B3179.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B3651.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B5014.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7569.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B7576.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B9205$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/B9205.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/MooTube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/MooTubeRe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/baekjoon/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_3_Feedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_3_remind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_4_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_7_feedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_8_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter1/Ch1_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_1_dy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_3_복습.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_4$Blick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_5_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_5_dy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_5_복습.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/Ch10_6_복습.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_1_DP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_4$Stone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_6$Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_6_re$Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter10/P_6_re.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_11_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_12_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_6_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_8_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter2/Ch2_9_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter3/Ch3_6_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_3_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter4/Ch4_5_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_6_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_8$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Ch5_8_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_10_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_10_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_1_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_4_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_5_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_6_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_6_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_7$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_7_reminder$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_7_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_8_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_8_reminder3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter6/Ch6_9_reminder3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_10_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_11_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_12_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_12_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_6_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_6_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_7_reminder$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_7_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_8_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_8_reminder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Ch7_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter7/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10_BFS$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10_BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10_BFS_Reminder$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10_BFS_Reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_10_DFS_Reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_12$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_13$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_13_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_15$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_1_refactoring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_3$Problem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_5_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_7_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/Ch8_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter8/CombinationPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_5_복습$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_5_복습.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_priq$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_priq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_union$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_union.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_복습$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_복습.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_복습2$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Ch9_7_복습2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_1$People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_1_reminder$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_1_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_2$Meeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_3$Friend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_4$Lecture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_4_reminder$Lecture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_4_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_5$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_5_reminder$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_5_reminder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_6$Relation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_6_RE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_6_remind$Relation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_6_remind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_7$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/P_7_RE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/SortEx$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/SortEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/chapter9/Way.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B10021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B10021.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B10815.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B10815.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B10830.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B10830.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B11051.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B11051.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B11401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B11401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B12865.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B12865.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B14503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B14503.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1629.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1629.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1655.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1655.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1759.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1759.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B1987.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B1987.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2468.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2468.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2538.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2538.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2573.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2573.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2573A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2573A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2580.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2580.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2606.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2606.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2644.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2644.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B2667.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B3179.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B3179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B3651.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B3651.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B5014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B5014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B7569.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B7569.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B7576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/B9205.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/B9205.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MooTube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/MooTube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/MooTubeRe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/MooTubeRe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/baekjoon/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_3_Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_3_Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_3_remind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_3_remind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_7_feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_7_feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_8_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_8_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Ch1_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter1/Ch1_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_1_dy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_1_dy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_3_복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_3_복습.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_5_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_5_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_5_dy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_5_dy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_5_복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_5_복습.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/Ch10_6_복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/Ch10_6_복습.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_1_DP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_1_DP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter10/P_6_re.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter10/P_6_re.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_11_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_11_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_12_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_12_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_6_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_6_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_8_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_8_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Ch2_9_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter2/Ch2_9_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/Ch3_6_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter3/Ch3_6_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_3_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_3_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Ch4_5_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter4/Ch4_5_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_6_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_6_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Ch5_8_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter5/Ch5_8_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_10_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_10_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_10_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_10_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_1_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_1_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_4_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_4_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_5_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_5_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_6_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_6_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_6_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_6_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_7_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_7_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_8_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_8_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_8_reminder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_8_reminder3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_9_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_9_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_9_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_9_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Ch6_9_reminder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter6/Ch6_9_reminder3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_10_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_10_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_11_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_11_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_12_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_12_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_12_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_12_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_6_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_6_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_6_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_6_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_7_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_7_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_8_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_8_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_8_reminder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_8_reminder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_9_BFS_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_9_BFS_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Ch7_9_DFS_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter7/Ch7_9_DFS_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_10_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_10_BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_10_BFS_Reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_10_BFS_Reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_10_DFS_Reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_10_DFS_Reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_13_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_13_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_1_refactoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_1_refactoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_5_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_5_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_7_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_7_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/Ch8_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/Ch8_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/CombinationPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter8/CombinationPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_5_복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_5_복습.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_7_priq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_7_priq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_7_union.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_7_union.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_7_복습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_7_복습.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Ch9_7_복습2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/Ch9_7_복습2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_1_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_1_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_4_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_4_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_5_reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_5_reminder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_6_RE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_6_RE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_6_remind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_6_remind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/P_7_RE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/P_7_RE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/SortEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy/chapter9/SortEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +498,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B10828">
-    <configuration name="B10815" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B10815" />
+  <component name="RunManager" selected="Application.C12">
+    <configuration name="C10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.inflearn.ch1.C10" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="algorithm.inflearn.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +512,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B10828" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B10828" />
+    <configuration name="C11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.inflearn.ch1.C11" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="algorithm.inflearn.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +525,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B14503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B14503" />
+    <configuration name="C12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.inflearn.ch1.C12" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="algorithm.inflearn.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +538,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B9205" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.B9205" />
+    <configuration name="C7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.inflearn.ch1.C7" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="algorithm.inflearn.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +551,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_6_RE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.P_6_RE" />
+    <configuration name="C9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.inflearn.ch1.C9" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter9.*" />
+          <option name="PATTERN" value="algorithm.inflearn.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +566,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B10828" />
-        <item itemvalue="Application.B10815" />
-        <item itemvalue="Application.P_6_RE" />
-        <item itemvalue="Application.B14503" />
-        <item itemvalue="Application.B9205" />
+        <item itemvalue="Application.C12" />
+        <item itemvalue="Application.C11" />
+        <item itemvalue="Application.C10" />
+        <item itemvalue="Application.C9" />
+        <item itemvalue="Application.C7" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +602,9 @@
       <workItem from="1651619398986" duration="2085000" />
       <workItem from="1651621496319" duration="1110000" />
       <workItem from="1651622691097" duration="443000" />
+      <workItem from="1654760878561" duration="3964000" />
+      <workItem from="1654821850683" duration="4407000" />
+      <workItem from="1654851795123" duration="604000" />
     </task>
     <servers />
   </component>
@@ -185,9 +638,9 @@
           <option name="timeStamp" value="7" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/chapter6/Ch6_4_reminder.java</url>
+          <url>file://$PROJECT_DIR$/src/dummy/chapter6/Ch6_4_reminder.java</url>
           <line>9</line>
-          <properties class="chapter6.Ch6_4_reminder" method="main">
+          <properties class="chapter6.Ch6_4_reminder">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
