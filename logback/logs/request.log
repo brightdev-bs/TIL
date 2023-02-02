@@ -1,0 +1,6 @@
+[REQUEST] [INFO ] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST] [INFO ] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+[REQUEST] [INFO ] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+[REQUEST] [INFO ] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [DemoController:15] - [info] info mode
+[REQUEST] [WARN ] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [DemoController:16] - [DEBUG] debug mode
+[REQUEST] [ERROR] 2023-02-02 20:05:40 [http-nio-8080-exec-1] [DemoController:17] - [DEBUG] debug mode

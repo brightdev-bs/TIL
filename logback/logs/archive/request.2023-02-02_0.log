@@ -1,0 +1,43 @@
+[REQUEST] [ERROR] 2023-02-02 20:05:02 [main] [SpringApplication:821] - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - 'FileNamePattern' option has the same value "logs/archive/request.%d{yyyy-MM-dd}_%i.log" as that given for appender [REQUEST] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at til.logback.LogbackApplication.main(LogbackApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - 'FileNamePattern' option has the same value "logs/archive/request.%d{yyyy-MM-dd}_%i.log" as that given for appender [REQUEST] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[REQUEST2] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [LogbackApplication:55] - Starting LogbackApplication using Java 17.0.5 on vanillaui-MacBookPro.local with PID 44692 (/Users/vanilla_a/Desktop/TIL/logback/build/classes/java/main started by vanilla_a in /Users/vanilla_a/Desktop/TIL/logback)
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [LogbackApplication:637] - The following 1 profile is active: "prod"
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [StandardService:173] - Starting service [Tomcat]
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 378 ms
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+[REQUEST] [INFO ] 2023-02-02 20:05:15 [main] [LogbackApplication:61] - Started LogbackApplication in 0.726 seconds (JVM running for 0.938)
