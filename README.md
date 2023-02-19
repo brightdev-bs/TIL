@@ -3,11 +3,15 @@
 [필터와 인터셉터](docs/spring/필터와_인터셉터.md)
 
 ## CS
-[자료구조](docs/자료구조/자료구조.md)
-[알고리즘](docs/알고리즘/정렬_알고리즘.md)
+[자료구조](docs/cs/자료구조/자료구조.md)
+[알고리즘](docs/cs/알고리즘/정렬_알고리즘.md)
+
+## OS
+[프로세스와 스레드](docs/cs/os/프로세스와_스레드.md)
+[CPU 스케줄링](docs/cs/os/CPU_스케줄링.md)
 
 ## 네트워크
-[HTTP란?](docs/네트워크/HTTP%EB%9E%80%3F.md)
+[HTTP란?](docs/cs/네트워크/HTTP%EB%9E%80%3F.md)
 
 
 ## logging
