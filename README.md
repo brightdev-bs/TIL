@@ -9,6 +9,7 @@
 ## OS
 [프로세스와 스레드](docs/cs/os/프로세스와_스레드.md)
 [CPU 스케줄링](docs/cs/os/CPU_스케줄링.md)
+[동기 비동기 / 블로킹 논블로킹](docs/cs/os/동기_비동기_블로킹_논블로킹.md)
 
 ## 네트워크
 [HTTP란?](docs/cs/네트워크/HTTP%EB%9E%80%3F.md)
