@@ -19,7 +19,7 @@
 ~~~
 
 3. HTTP 2.0 <br>
- -> Head of Line Blocking 문제를 해결하기 위해 여러 파일을 병렬로 전송하는 방식을 취한다. <br>
+ -> Head of Line Blocking 문제를 해결하기 위해 여러 파일을 스트림 형태로 전송하는 방식을 취한다. -> 병렬 전송이 가능해짐. <br>
 <img src="../../images/network/http2.0.png" width=500> <br>
  -> HTTP 1.1에서는 메세지가 text로 전송되지만, 2.0에서는 binary frame으로 전송된다. (데이터 파싱 및 전송 속도 증가)
  -> 이전 Header의 내용과 중복되는 필드를 재전송 하지 않도록 하여, 데이터를 절약하며, HPACK이라는 압축 방식을 이용하여 데이터 전송 효율이 높다.

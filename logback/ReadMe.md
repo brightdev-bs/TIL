@@ -150,4 +150,78 @@ LOG_DIR=logs
     </appender>
 ~~~
 
+### 에러 로그만 따로 뽑아내기
+에러 로그만 따로 파일로 만들어낼 수 있도록 appender를 정의해보겠습니다. <br>
+에러 로그만 따로 필터링 하기 위해 <filter></filter> 부분을 추가합니다.
+~~~xml
+<appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/error.log</file>
+        <!-- 에러 로그만 따로 출력하기 위해 filter를 정의  -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>error</level>
+            
+            <!-- error level과 맞으면 출력 -->
+            <onMatch>ACCEPT</onMatch>
+            
+            <!-- error level과 맞지 않으면 출력하지 않음 -->
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_DIR}/archive/error.%d{yyyy-MM-dd}_%i.log
+            </fileNamePattern>
+            <maxFileSize>10KB</maxFileSize> <!-- 로그파일의 최대 크기 -->
+            <maxHistory>30</maxHistory> <!-- 로그파일 최대 보관주기 (단위 : 일) -->
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>
+                [ERROR] ${LOG_PATTERN}
+            </pattern>
+        </encoder>
+    </appender>
+~~~
+
+### 특정 컨트롤러에만 로그 적용하기 
+기본적으로 appender를 정의하는 것은 같습니다. 이번에는 query라는 이름으로 appender를 설정해보겠습니다.
+~~~xml
+<appender name="QUERY" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/query.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+        <fileNamePattern>
+            ${LOG_DIR}/archive/query.%d{yyyy-MM-dd}_%i.log
+        </fileNamePattern>
+        <maxFileSize>10KB</maxFileSize> <!-- 로그파일의 최대 크기 -->
+        <maxHistory>30</maxHistory> <!-- 로그파일 최대 보관주기 (단위 : 일) -->
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>
+            [query] ${LOG_PATTERN}
+        </pattern>
+    </encoder>
+</appender>
+~~~
+
+지금까지는 appender를 정의하면 root레벨 밑으로 appender를 연결해주었는데요, 이번에는 커스텀하게 연결해주어야 합니다.
+~~~xml
+<!-- 이전 방법 -->
+<root level="INFO">
+    <appender-ref ref="REQUEST" />
+    <appender-ref ref="REQUEST2" />
+    <appender-ref ref="ERROR" />
+</root>
+
+<!-- 커스텀 방법 -->
+<!-- additivitty는 상속 여부를 정의해주는 부분으로 상속하지 않을 것이므로 false로 설정해줍니다.-->
+<logger name="SQL_LOG1" level="INFO" additivitty="false">
+    <appender-ref ref="QUERY" />
+</logger>
+~~~
+
+이렇게 커스텀하게 로그를 설정하면 @slf4j에서는 이를 인식할 수 없습니다. 따라서 수동으로 연결해주어야 합니다.
+~~~java
+@Slf4j(topic = "SQL_LOG1") // topic 속성을 이용해 logger를 연결해줍니다.
+@RestController
+public class QueryController1 { }
+~~~
+
 

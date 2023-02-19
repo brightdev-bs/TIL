@@ -1,46 +1,52 @@
-package sort;
+package src.sort.quicksort;
 
 public class QuickSort {
 
-    static int[] data = {3, 10, 7, 5, 2, 15, 8, 12, 18, 25};
-
     public static void main(String[] args) {
-        quickSort(data, 0, 9);
+        int[] data = {5, 3, 8, 9, 2, 4, 7};
+        quickSort(data, 0, 6);
 
         for (int datum : data) {
             System.out.print(datum + " ");
         }
     }
 
-    public static void quickSort(int[] data, int start, int end) {
-        if(start >= end) {
-            return;
+    public static void quickSort(int[] arr, int left, int right) {
+        if(left >= right) return;
+
+        int pivot = partition(arr, left, right);
+
+        quickSort(arr, left, pivot - 1);
+        quickSort(arr, pivot + 1, right);
+    }
+
+    static int partition(int[] arr, int left, int right) {
+
+        int pivot = arr[left];
+        int lp = left;
+        int rp = right;
+
+        while(lp < rp) {
+
+            while(arr[rp] > pivot && lp < rp) {
+                rp--;
+            }
+
+            while(arr[lp] <= pivot && lp < rp) {
+                lp++;
+            }
+
+            swap(arr, lp, rp);
         }
 
-        int pivot = start;
-        int i = pivot + 1;
-        int j = end;
-        int temp;
-        while(i <= j) {
-            while(i <= end && data[i] <= data[pivot]) {
-                i++;
-            }
-            while(j > start && data[j] > data[pivot]) {
-                j--;
-            }
+        swap(arr, left, lp);
 
-            if(i > j) {
-                temp = data[j];
-                data[j] = data[pivot];
-                data[pivot] = temp;
-            } else {
-                temp = data[i];
-                data[i] = data[j];
-                data[j] = temp;
-            }
-        }
+        return lp;
+    }
 
-        quickSort(data, start, j - 1);
-        quickSort(data, j + 1, end);
+    static void swap(int[] arr, int left, int right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
     }
 }
