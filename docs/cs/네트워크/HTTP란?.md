@@ -1,5 +1,5 @@
 # HTTP란?
-### HTTP란?
+## HTTP란?
 하이퍼텍스트 전송 프로토콜 (HyperText transfer Protocol)로 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송하기 위해 사용되는 통신 규약을 의미한다. 
 
 하이퍼 텍스트는 문서 중간중간에 특정 키워드를 두고 문자나 그림을 상호 유기적으로 결합하여 연결시킴으로써, 
@@ -41,7 +41,14 @@ HTTP 지속 연결에서는 연결이 이루어지고 난 뒤 각각의 자원�
 
 [참고](https://hanamon.kr/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-http-http%EB%9E%80-%ED%8A%B9%EC%A7%95-%EB%AC%B4%EC%83%81%ED%83%9C-%EB%B9%84%EC%97%B0%EA%B2%B0%EC%84%B1/)
 
+## HTTP와 HTTPS
+HTTP는 데이터를 평문 그대로 전송하기 때문에 중요한 정보가 탈취되기 쉽다. 
+이러한 문제를 해결하기 위해 HTTPS에서는 암호화를 하는 레이어를 추가하여 평문 데이터를 암호화 한다. <br> 
+<p>
+<img src="./images/HTTP와HTTPS구조.png" width="400"> <br>
+출처 : http://www.ktword.co.kr/test/view/view.php?m_temp1=3132
+</p>
 
+HTTP는 TCP와 직접적으로 통신하지만, HTTPS에서는 SSL(Secure Socket Layer)를 거쳐 통신하기 때문에 더 안전하다.
 
-
-
+---
