@@ -1,6 +1,4 @@
 # TIL
-## 스프링
-1. [필터와 인터셉터](docs/spring/필터와_인터셉터.md) 
 
 ## CS
 1. [자료구조](docs/cs/자료구조/자료구조.md) 
@@ -25,6 +23,15 @@
 1. [SQL Injection](docs/cs/database/SQL_Inject.md)
 2. [SQL과 NOSQL](docs/cs/database/SQL과_NOSQL차이.md)
 3. [트랜잭션](docs/cs/database/트랜잭션.md)
+
+## 자바
+1. [이펙티브 자바](effective-java/docs/Main.md)
+
+## 디자인 패턴
+1. [gof - 디자인패턴](design-pattern/docs/Main.md)
+
+## 스프링
+1. [필터와 인터셉터](docs/spring/필터와_인터셉터.md)
 
 
 ## logging
