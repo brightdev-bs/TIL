@@ -1,4 +1,4 @@
-package ch2;
+package ch2.staticfactorymethod;
 
 public interface LanguageService {
     String hello();

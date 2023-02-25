@@ -1,6 +1,4 @@
-package ch2;
-
-import java.sql.Connection;
+package ch2.staticfactorymethod;
 
 public class FrenchLanguageService implements LanguageService {
 
