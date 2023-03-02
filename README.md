@@ -26,6 +26,7 @@
 
 ## 자바
 1. [이펙티브 자바](effective-java/docs/Main.md)
+2. [JVM](docs/java/JVM.md)
 
 ## 디자인 패턴
 1. [gof - 디자인패턴](design-pattern/docs/Main.md)
