@@ -8,6 +8,8 @@
 4. [인스턴스화를 막기 위해 private 생성자를 이용하자](ch2/인스턴스와_private생성자.md)
 5. [의존 객체 주입을 사용하라](ch2/의존_객체_주입을_사용하라.md)
 6. [다 쓴 객체 참조를 해제하라](ch2/다_쓴_객체_참조를_해제하라.md)
+7. [finalizer와 cleaner의 사용을 자제해라](ch2/finalizer와_cleaner_사용을_피하라.md)
+8. [try fianlly보다 try-with-resource를 사용하라](ch2/try_finally보다는_try-with-resource를_사용하라.md)
 
 
 ### 추가학습
