@@ -11,6 +11,10 @@
 7. [finalizer와 cleaner의 사용을 자제해라](ch2/finalizer와_cleaner_사용을_피하라.md)
 8. [try fianlly보다 try-with-resource를 사용하라](ch2/try_finally보다는_try-with-resource를_사용하라.md)
 
+### Chapter 3. 모든 객체의 공통 메서드
+equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 염두에 둔 메서드로 언제 어떻게 재정의해야 하는지 다룬다.
+1. [equals는 일반 규약을 지켜 재정의하라](ch3/equlas는_일반_규약을_지켜_재정의하라.md)
+
 
 ### 추가학습
 1. [JVM 가비지 컬렉터](./가비지_컬렉터.md)
