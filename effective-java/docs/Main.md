@@ -14,6 +14,8 @@
 ### Chapter 3. 모든 객체의 공통 메서드
 equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 염두에 둔 메서드로 언제 어떻게 재정의해야 하는지 다룬다.
 1. [equals는 일반 규약을 지켜 재정의하라](ch3/equlas는_일반_규약을_지켜_재정의하라.md)
+2. [equals는 hashcode도 같이 재정의하라](ch3/equlas를_재정의할때는_hashcode도_재정의하자.md)
+3. 
 
 
 ### 추가학습
