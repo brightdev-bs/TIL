@@ -15,7 +15,9 @@
 equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 염두에 둔 메서드로 언제 어떻게 재정의해야 하는지 다룬다.
 1. [equals는 일반 규약을 지켜 재정의하라](ch3/equlas는_일반_규약을_지켜_재정의하라.md)
 2. [equals는 hashcode도 같이 재정의하라](ch3/equlas를_재정의할때는_hashcode도_재정의하자.md)
-3. 
+3. [toString을 항상 재정의하라](ch3/toString을_항상_재정의하라.md)
+4. [clone 재정의](ch3/clone_재정의.md)
+5. [Comparable 구현할지 고민하라](ch3/Comparable을_구현할지_고민하라.md)
 
 
 ### 추가학습
