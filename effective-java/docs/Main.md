@@ -19,6 +19,9 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
 4. [clone 재정의](ch3/clone_재정의.md)
 5. [Comparable 구현할지 고민하라](ch3/Comparable을_구현할지_고민하라.md)
 
+### Chapter 4. 클래스와 인터페이스
+1. [클래스와 멤버의 접근 권한을 최소화하라](ch4/클래스와_멤버의_접근_권한을_최소화하라.md)
+
 
 ### 추가학습
 1. [JVM 가비지 컬렉터](./가비지_컬렉터.md)
