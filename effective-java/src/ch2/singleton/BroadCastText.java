@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BroadCastTest {
+class BroadCastText {
     @Test
     void test() {
         BroadCast broadCast = new BroadCast(Elvis.INSTANCE);
