@@ -77,6 +77,8 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
 2. [전통적인 for 문보다는 for-each를 이용하자](ch9/전통적인_for문보다는_for-each_문을_사용하라.md)
 3. [라이브러리를 익히고 사용하라](ch9/라이브러리를_익히고_사용하라.md)
  - java.util, java.lang, java.io, java.util.concurrent 패키지 공부하기
+4. [정확한 계산이 필요하다면 float와 double은 피하라](ch9/정확한_답이_필요하다면_float와_double_은_피하라.md)
+
 
 ### 추가학습
 1. [JVM 가비지 컬렉터](./가비지_컬렉터.md)
