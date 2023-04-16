@@ -79,6 +79,7 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
  - java.util, java.lang, java.io, java.util.concurrent 패키지 공부하기
 4. [정확한 계산이 필요하다면 float와 double은 피하라](ch9/정확한_답이_필요하다면_float와_double_은_피하라.md)
 5. [박싱된 기본 타입보다는 기본 타입을 사용하라](ch9/박싱된_기본_타입보다는_기본_타입을_사용하라.md)
+6. [다른 타입이 적절하다면 문자열 사용을 자제하라](ch9/다른_타입이_적절하다면_문자열_사용을_피하라.md)
 
 ### 추가학습
 1. [JVM 가비지 컬렉터](./가비지_컬렉터.md)
