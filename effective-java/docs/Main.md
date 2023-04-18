@@ -99,6 +99,7 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
 
 ### Chapter 11. 동시성
 1. [공유 중인 가변 데이터는 동기화해 사용하라](ch11/공유_중인_가변_데이터는_동기화해_사용하라.md)
+2. [과도한 동기화는 피하라](ch11/과도한_동기화는_피하라.md)
 
 
 
