@@ -111,6 +111,8 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
 1. [자바 직렬화의 대안을 찾으라](ch12/자바_직렬화의_대안을_찾으라.md)
 2. [Serializable을 구현할지는 신중히 결정하라](ch12/Serializable을_구현할지는_신중히_결정하라.md)
 3. [커스텀 직렬화 형태를 고려해보라](ch12/커스텀_직렬화_형태를_고려해보라.md)
+4. [readObject 메서드는 방어적으로 작성하라](ch12/readObject_메서드는_방어적으로_작성하라.md)
+5. 
 
 
 ### 추가학습
