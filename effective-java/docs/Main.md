@@ -112,7 +112,7 @@ equlas, hashCode, toString, clone, finalize는 모두 재정의(Overriding)를 �
 2. [Serializable을 구현할지는 신중히 결정하라](ch12/Serializable을_구현할지는_신중히_결정하라.md)
 3. [커스텀 직렬화 형태를 고려해보라](ch12/커스텀_직렬화_형태를_고려해보라.md)
 4. [readObject 메서드는 방어적으로 작성하라](ch12/readObject_메서드는_방어적으로_작성하라.md)
-5. 
+5. [인스턴스 수를 통제해야 한다면 readResolve 보다는 열거 타입을 사용하라](ch12/인스턴스_수를_통제해야_한다면_readResolve_보다는_열거_타입을_사용하라.md)
 
 
 ### 추가학습
