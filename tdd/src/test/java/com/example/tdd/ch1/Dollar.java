@@ -2,11 +2,15 @@ package com.example.tdd.ch1;
 
 public class Dollar extends Money {
 
-    public Dollar(int amount) {
-        this.amount = amount;
+    public Dollar(int amount, String currecny) {
+        super(amount, currecny);
     }
 
-    public Dollar times(int multiplier) {
-        return new Dollar(amount * multiplier);
+    public Money times(int multiplier) {
+        return Money.dollar(amount * multiplier);
+    }
+
+    String currency() {
+        return currency;
     }
 }
