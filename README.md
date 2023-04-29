@@ -39,7 +39,8 @@
 1. [logback을 이용한 로깅](logback/ReadMe.md) 
 
 ## TDD
-1. [Mockito](docs/tdd/Mockito.md) 
+1. [테스트 주도 개발 - 켄트 벡](./tdd/ReadMe.md)
+2. [Mockito](docs/tdd/Mockito.md) 
 
 ## 책 
-1. [객체지향의 사실과 오해](docs/)
+1. [객체지향의 사실과 오해](docs/books/객체지향의_사실과_오해.md)
