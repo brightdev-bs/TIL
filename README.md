@@ -29,7 +29,10 @@
 2. [JVM](docs/java/JVM.md)
 
 ## 디자인 패턴
-1. [gof - 디자인패턴](design-pattern/docs/Main.md)
+1. [디자인 패턴](design-pattern/docs/personally/Main.md)
+   - 공부하면서 나온 디자인 패턴 정리
+   
+2. [헤드퍼스트 디자인패턴](design-pattern/docs/헤드퍼스트_디자인패턴.md)
 
 ## 스프링
 1. [필터와 인터셉터](docs/spring/필터와_인터셉터.md)
