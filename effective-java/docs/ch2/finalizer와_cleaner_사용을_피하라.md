@@ -46,6 +46,7 @@ public class AutoCloseablePractice implements AutoCloseable {
 ~~~
 
 이렇게 AutoCloseable을 구현하면 try-resource문을 이용하면 try문이 끝날 때 자동으로 자원을 반납해준다.
+
 ~~~java
 public class Client {
     public static void main(String[] args) {

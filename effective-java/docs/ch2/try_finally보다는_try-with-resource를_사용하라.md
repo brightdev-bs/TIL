@@ -9,6 +9,7 @@ finalizer는 자원의 반환을 보장하지는 않는다.
 전통적으로 자원이 제대로 닫힘을 보장하기 위해 try-finally가 사용되었다. 하지만 이 방식은 중첩 try-catch문이 생기면 코드가 지저분해지는 문제가 있다.
 
 try-finally 문을 제대로 작성한 다음 코드에도 문제가 있다.
+
 ~~~java
 static String firstLineOfFile(String path) throws IOException {
     BufferedReader br = new BufferedReader(new FileReader(path));

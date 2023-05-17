@@ -5,6 +5,7 @@
 3. 두 객체의 equals가 다르더라도, 같은 hashcode값을 가질 수 있다. 더 좋은 성능을 위해 다른 값을 리턴하는 것이 더 좋기는 하다.
 
 다음 예제를 통해 왜 hashcode를 같이 정의해야 하는지 이해해보자. phoneNumber에는 equlas규약에 맞춰 메소드가 잘 정의되어있다고 가정하자.
+
 ~~~java
 public class HashMapTest {
     public static void main(String[] args) {
@@ -52,6 +53,7 @@ public class HashMapTest {
 
 ### 해시 캐싱
 만약 객체가 불변객체이고 해시코드를 구하는데 많은 비용이 든다면 캐싱을 고려해볼 수 있다.
+
 ~~~java
 private int hashCode;
 @Override
@@ -67,11 +69,13 @@ public int hashcode() {
 ~~~
 
 이렇게 되면 쓰레드 세이프 하지 않게된다.(불변 객체는 상관없음) 이를 해결하는 가장 간단한 방법은 synchronized를 이용하는 것이다.
+
 ~~~java
 public int synchronized hashCode() {}
 ~~~
 
 이렇게 작성하면 이 메서드에는 한 쓰레드만 접근할 수 있으므로 성능이 느려진다. 따라서 더블 체킹 락을 이용할 수 잇따.
+
 ~~~java
 // 데이터를 보통 캐시에 저장하는데, 캐시에서 데이터를 가져오게 되면 업데이트 되었는데도 이전 데이터를 가져올 수 있음.
 private volatile int hashCode; // 메인메모리에서 데이터를 저장하고 가져온다.   
