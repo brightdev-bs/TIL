@@ -49,3 +49,4 @@
 ## 책 
 1. [객체지향의 사실과 오해](docs/books/객체지향의_사실과_오해.md)
     - [실습](https://github.com/brightdev-bs/oop)
+2. [코어 자바스크립트](docs/books/코어_자바스크립트.md)
