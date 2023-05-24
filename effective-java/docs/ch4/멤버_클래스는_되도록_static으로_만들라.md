@@ -7,6 +7,7 @@
 
 ### 1. 정적 멤버 클래스
    주로 바깥 클래스와 함께 쓰일 때만 유용한 public 도우미 클래스로 쓰인다.
+
 ~~~java
 Calculator.Operation.PLUS
 Calculator.Operation.MINUS
@@ -15,6 +16,7 @@ Calculator.Operation.MINUS
 ### 2. 비정적 멤버 클래스
 비정적 멤버 클래스의 인스턴스는 바깥 클래스의 인스턴스와 암묵적으로 연결된다. 그래서 비정적 멤버 클래스의 인스턴스 메서드에서 
 정규화된 this를 사용해 바깥 인스턴스의 메서드를 호출하거나 바깥 인스턴스의 참조를 가져올 수 있다.
+
 ~~~java
 public class MySet<E> extends AbstractSet<E> {
     @Override
@@ -50,6 +52,7 @@ public class MySet<E> extends AbstractSet<E> {
  - 가비지 컬렉션이 바깥 클래스의 인스턴스를 수거하지 못하는 메모리 누수가 생길 수 있다.
 
 ### 3. 익명 클래스
+
 ~~~java
 public class IntArrays {
     static List<Integer> intArrayAsList(int[] a) {
