@@ -3,6 +3,7 @@
    
 ## 정수 열거 패턴
    정수 상수를 한 묶음 선언해서 사용하는 패턴
+
 ~~~java
 public static final int APPLE_FUJI = 0;
 public static final int APPLE_PIPPIN = 1;
@@ -15,6 +16,7 @@ public static final int ORANGE_BLOOD = 2;
 
 정수 열거 패턴에는 다음과 같은 문제가 있다.
 ### 1. 타입 안전을 보장할 방법이 없다.
+
 ~~~java
 public class IntegerEnumeration {
 
@@ -35,12 +37,14 @@ public class IntegerEnumeration {
 ~~~
 
 ### 2. 표현력이 좋지 않다.
+
 ~~~text
 자바가 정수 열거 패턴을 위한 별도 이름공간을 지원하지 않기 때문에 접두어를 써서 이름 충돌을 방지한다.
 e.g 영어로는 둘 다 mercury인 수은과 수성의 이름을 ELEMENT_MERCURY, PLANET_MERCURY로 접두어를 붙여 구분한다.
 ~~~
 
 ### 3. 정수 상수는 사용이 까다롭다.
+
 ~~~java
 값을 출력하거나 디버거로 살펴보면 단지 숫자로만 보이기 때문에 도움이 되지 않는다. 즉, 문자열로 출력하기 힘들다. 
 또한 정수 열거 그룹에 속한 모든 상수를 한 바퀴 순회하기 쉽지 않다.
@@ -54,10 +58,12 @@ e.g 영어로는 둘 다 mercury인 수은과 수성의 이름을 ELEMENT_MERCUR
 
 ### 1. 컴파일타임 타입 안정성을 제공한다.
 다음과 같이 사과와 관련된 상수 값만 인자로 넘길 수 있다.
+
 <img src="/images/ch6/compile_time_check.png">
 
 ### 2. 열거 타입에는 임의의 메서드나 필드를 추가할 수 있고 임의의 인터페이스를 구현하게 할 수도 있다.
 예를 들어 사과 종류마다 각기 다른 가격을 가진다고 해보자. 열거 타입을 이용하면 다음과 같이 인스턴스 필드와 메서드를 가질 수 있따.
+
 ~~~java
 public enum Apple {
     FUJI(5000),
@@ -75,6 +81,7 @@ public enum Apple {
 ~~~
 
 이런 표현은 다음과 같이 모든 Apple의 가격을 쉽게 조회할 수 있게 해준다. 열거 타입은 자신 안에 정의된 상수들의 값을 배열에 담아 반환하는 정적 메서드인 values를 제공한다.
+
 ~~~java
 for (Apple apple : Apple.values()) {
     System.out.println(apple.name() + " : " + apple.getPrice());
@@ -82,7 +89,8 @@ for (Apple apple : Apple.values()) {
 ~~~
 
 ### 유연성과 안정성의 제공
-이번엔 FUJI사과가 잘 안 팔려서 팔지 않기로 했다고 해보자. 
+이번엔 FUJI사과가 잘 안 팔려서 팔지 않기로 했다고 해보자.
+
 ~~~java
 public enum Apple {
     PIPPIN(3000),
@@ -110,6 +118,7 @@ public enum Operation {
 2. apply 메서드가 상수 선언 바로 옆에 붙어 있으니 새로운 상수를 추가할 대 apply도 재정의해야 한다는 사실을 깜빡하기 힘들다.
 
 #### toString을 재정의해 해당 연사자의 기호를 반환할 수 있다.
+
 ~~~java
 public enum Operation {
 
@@ -129,6 +138,7 @@ public enum Operation {
 
 ### 전략 열거 타입
 주중과 주말에 대한 잔업 수당 계산과 같이 열거 타입 상수 일부가 같은 동작을 공유한다면 전략 열거 타입 패턴을 사용할 수 있다.
+
 ~~~java
 enum PayrollDay {
     MONDAY(WEEKDAY), TUESDAY(WEEKDAY), WEDNESDAY(WEEKDAY), THURSDAY(WEEKDAY), FRIDAY(WEEKDAY), SATURDAY(PayType.WEEKEND), SUNDAY(PayType.WEEKEND);

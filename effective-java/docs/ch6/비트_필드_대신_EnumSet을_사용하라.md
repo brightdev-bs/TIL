@@ -1,6 +1,7 @@
 # 비트 필드 대신 EnumSet을 사용하라
 ## 비트 필드 
    비트 필드는 비트 연산을 통해 합집합과 교집합 같은 연산을 효율적으로 할 수 있도록 도와준다. 예를 들어 다음 코드를 보자.
+
 ~~~java
 public class Text {
     public static final int STYLE_BOLD = 0;
@@ -13,10 +14,12 @@ public class Text {
 ~~~
 
 각각을 비트 필드로 표현해보면 다음과 같다. <br>
-<img src="docs/images/ch6/bit_field.png"> <br>
+
+<img src="../../images/ch6/bit_field.png">
 
 비트 필드의 문제는 다음과 같다.
 1. 비트 필드의 값이 그대로 출력되면 단순한 정수 열거 상수를 출력할 때보다 해석하기가 어렵다. 
+
 ~~~TEXT
 비트 필드 : { 0101 },  { STYLE_BOLD, STYLE_UNDERLINE }
 ~~~

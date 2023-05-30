@@ -49,6 +49,7 @@ public class Client {
 ## EnumMap
    위에서 배열은 실질적으로 열거 타입 상수를 값으로 매핑하는 일을 한다. 그래서 Map을 사용할 수 있는데, 자바에서는 열거 타입을 키로 사용하도록 설계한
 아주 빠른 Map 구현체를 EnumMap이라고 한다.
+
 ~~~java
 Map<Plant.LifeCycle, Set<Plant>> plantByLifeCycle = new EnumMap<>(Plant.LifeCycle.clss);
 for(Plant.LifeCycle lc : Plant.LifeCycle.values()) 
@@ -59,22 +60,24 @@ System.out.println(plantsByLifeCycle);
 ~~~
 
 1. 안전하지 않은 형변환 코드가 없어졌다.
- >  Set<Plant>[] plantsByLifeCycle = (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];
+ - Set<Plant>[] plantsByLifeCycle = (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];
 
 2. 맵의 키인 열거 타입이 그 자체로 출력용 문자열을 제공한다. 
 3. 배열 인덱스를 계산하는 과정에서 오류가 날 가능성이 없다.
- > plantsByLifeCycle[p.lifeCycle.ordinal()].add(p);
+ - plantsByLifeCycle[p.lifeCycle.ordinal()].add(p);
 
 
 EnumMap은 내부에서 배열을 사용하기 때문에 속도가 빠르며, 내부 구현 방식이 안으로 숨겨져 있기 때문에 타입 안정성도 있다.
 
 ### EnumMap과 Stream
 이 코드는 EnumMap이 아닌 고유한 맵 구현체를 사용했기 때문에 EnumMap을 써서 얻은 공간과 성능 이점이 사라진다.
+
 ~~~java
 System.out.println(Arrays.stream(garden).collect(GroupingBy(p -> p.lifeCycle)));
 ~~~
 
 이를 해결하기 위해 mapFactory 매개변수에 원하는 맵 구현체를 명시해 호출할 수 있다.
+
 ~~~java
 System.out.println(Arrays.stream(garden)
         .collect(groupingBy(p -> p.lifeCycle,
@@ -82,6 +85,7 @@ System.out.println(Arrays.stream(garden)
 ~~~
 
 ### 다차원 관계는 EnumMap<..., EnumMap<...>>을 이용하자
+
 ~~~java
 public enum Phase {
     SOLID, LIQUID, GAS;
