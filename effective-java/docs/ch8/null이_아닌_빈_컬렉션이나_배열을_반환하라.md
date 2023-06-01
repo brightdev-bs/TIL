@@ -1,5 +1,6 @@
 # null이 아닌, 빈 컬렉션이나 배열을 반환하라
 ## 컬렉션이 비었으면 null을 반환하는 코드
+
 ~~~java
 public List<Cheese> getCheeses() {
     return cheesesInStock.isEmpty() ? null : new ArrayList<>(cheeseInStock);
@@ -13,6 +14,7 @@ public List<Cheese> getCheeses() {
 2. 빈 컬렉션과 배열은 굳이 새로 할당하지 않고도 반환할 수 있다. 
 
 빈 컬렉션을 반환하는 올바른 예 
+
 ~~~java
 public List<Cheese> getCheeses() {
     return new ArrayList<>(cheesesInStock);    
@@ -21,9 +23,11 @@ public List<Cheese> getCheeses() {
 
 ### 빈 컬렉션 할당이 성능을 떨어뜨릴 경우
    매번 똑같은 빈 '불변' 컬렉션을 반환하면 된다. 불변 객체는 자우롭게 공유해도 안전하다. 
+
  >Collections.emptyList, Collections.emptySet, Collections.emptty
 
 ## 배열을 쓸 때도 길이가 0인 배열을 반환하자.
+
 ~~~java
 public Chesse[] getCheeses() {
     return cheesesInStock.toArray(new Cheese[0]);    
@@ -31,6 +35,7 @@ public Chesse[] getCheeses() {
 ~~~
 
 이 방식이 성능을 떨어뜨릴 것 같다면 길이 0짜리 배열을 미리 선언해두고 매번 그 배열을 반환하면 된다. 길이 0인 배열은 모두 불변이다. 
+
 ~~~java
 private static final Cheese[] EMPTY_CHEESE_ARRAY = new Cheese[0];
 

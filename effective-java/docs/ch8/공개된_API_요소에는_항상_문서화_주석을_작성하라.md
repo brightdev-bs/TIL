@@ -12,6 +12,7 @@ API를 올바로 문서화하려면 공개된 모든 클래스, 인터페이스,
    - e.g ) 백그라운드 스레드를 시작시키는 메서드라면 그 사실을 문서에 밝혀야 한다.
  - 클래스를 상속용으로 설계할 때는 자기사용 패턴에 대해서도 문서에 남겨 다른 프로그래머에게 그 메서드를 올바로 재정의하는 방법을 알려줘야 한다. 
    - @implSpec 태그를 이용하여 문서화 한다. 
+
 ~~~java
 /**
  * @implSpec 
@@ -31,8 +32,10 @@ API를 올바로 문서화하려면 공개된 모든 클래스, 인터페이스,
  */
 E get(int index);
 ~~~
+
 3. {@code}태그는 태그로 감싼 내용을 코드용 폰트로 렌더링해주며, 태그로 감싼 내용에 포함된 HTML 요소나 다른 자바독 태그를 무시한다.
 4. API 설명에 <, >, & 등의 HTML 메타문자를 포함시키려면 {@literal} 태그로 감싸자.
+
 ~~~java
 {@literal |r| < 1} 이면 기하 수열이 수렴한다. 
 ~~~
@@ -49,6 +52,7 @@ E get(int index);
  > Instant: An instantaneous point on the time-line
 
 4. 제네릭 타입이나 제네릭 메서드를 문서화할 때는 모든 타입 매개변수에 주석을 달아야 한다. 
+
 ~~~java
 /**
  * @param <K> the type of keys maintained by this map
@@ -58,6 +62,7 @@ public interface Map<K, V> {...}
 ~~~
 
 5. 열거 타입을 문서화할 때는 상수들에도 주석을 달아야 한다.
+
 ~~~java
 public enum OrchestraSection {
     /** Woodwinds, suc as flute, clarinet and oboe. */
