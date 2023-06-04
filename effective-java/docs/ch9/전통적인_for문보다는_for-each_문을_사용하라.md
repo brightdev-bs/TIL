@@ -1,6 +1,7 @@
 # 전통적인 for 문보다는 for-each 문을 사용하라
 
 ## 전통적인 for 문을 이용한 컬렉션 순회
+
 ~~~java
 for(Iterator<Element> i = c.iterator(); i.hasNext(); ) {
     Element e = i.next();    
@@ -17,6 +18,7 @@ for (int i = 0; i < n; i++) {
 3. 컬렉션이나 배열이냐에 따라 코드 형태가 달라진다.
 
 ### 중첩 for문의 찾기 어려운 버그
+
 ~~~java
 enum Suit { CLUB, DIAMOND, HEART, SPADE }
 enum Rank { ACE, DEUCE, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING }
@@ -32,6 +34,7 @@ for (Iterator<Suit> i = suits.iterator(); i.hasNext(); )
 반대의 경우라면 예외를 던지지 않고 예상치 못한 결과와 함께 종료된다. 
 
 이러한 문제를 해결하기 위해 바깥 반복문에 원소를 저장하는 변수를 하나 추가해야한다.
+
 ~~~java
 for (Iterator<Suit> i = suits.iterator(); i.hasNext(); )
     Suit suit = i.next();
@@ -42,6 +45,7 @@ for (Iterator<Suit> i = suits.iterator(); i.hasNext(); )
 이러한 불편함을 해결하기 위해 등장한 것이 for-each 문이다. 
 
 ## for-each문
+
 ~~~java
 for (Element e : elements) {
         ... // e로 뭔가 한다.    
@@ -51,6 +55,7 @@ for (Element e : elements) {
 2. 하나의 관용구로 컬렉션과 배열을 동일하게 처리할 수 있다. 
 
 ### 중첩 반복을 위한 권장 관용구
+
 ~~~java
 for(Suit suit : suits) 
     for(Rank rank : ranks)
