@@ -7,7 +7,8 @@ readObject가 이 작업을 제대로 수행하지 못하면 공격자는 아주
 
 ### 객체의 유효성 검사
 readObject 메서드가 defaultReadObject를 호출한 다음 역직렬화된 객체가 유효한지 검사하자. 이 유효성 검사에 실패하면 InvalidObjectException을 
-던지게 하여 잘못된 역직렬화가 일어나는 것을 막을 수 있다. 
+던지게 하여 잘못된 역직렬화가 일어나는 것을 막을 수 있다.
+
 ~~~java
 private void readObject(ObjectInputStream s) throw IOException, ClassNotFoundException {
     s.defaultReadObject();
@@ -24,6 +25,7 @@ private void readObject(ObjectInputStream s) throw IOException, ClassNotFoundExc
 위의 코드로 불변식을 유지한 채 생성할 수는 있지만, 의도적으로 내부의 값을 수정할 수 있다. 이 인스턴스가 불변이라고 가정하는 클래스에 넘겨지면 엄청난 보안 문제를 일으킬 수 있다.
 
 객체를 역직렬화할 때는 클라이언트가 소유해서는 안 되는 객체 참조를 갖는 필드를 모두 반드시 방어적으로 복사해야 한다.
+
 ~~~java
 private void readObject(ObjectInputStream s) throw IOException, ClassNotFoundException {
     s.defaultReadObject();

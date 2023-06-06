@@ -1,5 +1,6 @@
 # 인스턴스 수를 통제해야 한다면 readResolve보다는 열거 타입을 사용하라
 다음은 아이템 3에서 소개한 싱글톤 패턴을 구현하는 방법 중 한 가지이다.
+
 ~~~java
 public class Elvis {
     public static final Elvis INSTANCE = new Elvis();
@@ -30,6 +31,7 @@ private Object readResolve() {
 ### 열거 타입 싱글턴
 이처럼 readResolve 메서드를 사용해 '순간적으로' 만들어진 역직렬화된 인스턴스에 접근하지 못하게 하는 방법은 깨지기 쉽고 신경을 많이 써야 하는 작업이다.
 열거 타입 싱글턴은 전통적인 싱글턴보다 직렬화 측면에서도 우수하다.
+
 ~~~java
 public enum Elvis {
     INSTANCE;
