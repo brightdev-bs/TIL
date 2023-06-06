@@ -23,6 +23,7 @@
 ### 직렬화와 확장이 모두 가능한 클래스인 경우
  - 인스턴스 필드 값 중 불변식을 보장해야 할 게 있다면 반드시 하위 클래스에서 finalize 메서드를 재정의하지 못하게 하자. 
  - 인스턴스 필드 중 기본값으로 초기화되면 위배되는 불변식이 있다면 클래스에 다음의 readObjectNoData 메서드를 반드시 추가하자.
+
 ~~~java
 private void readObjectNoDate() throws InvalidObjectException {
     throw new InvalidObjectException("스트림 데이터가 필요합니다.");    
