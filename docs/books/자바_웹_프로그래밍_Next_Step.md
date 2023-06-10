@@ -134,6 +134,21 @@ Content-Length: 20                            ----> 요청 헤더
 ~~~
  -상태 라인 : (HTTP/버전 - 상태코드 - 응답구문)으로 구성되어 있다.
 
+## Ch5. 웹 서버 리팩토링, 서블릿 컨테이너와 서블릿의 관계
+현재까지 구현한 HTTP 웹 서버의 문제점은 다음과 같다.
+1. HTTP 요청과 응답 헤더, 본문 처리와 같은 데 많은 시간 투자가 필요하다
+2. 동적인 HTML을 지원하는데 한계가 있다. 
+3. 사용자가 입력한 데이터가 서버를 재시작하면 사라진다.
+
+1번 2번 문제를 해결하기 위해 서블릿 컨테이너와 서블릿/JSP를 사용할 수 있다.
+
+### 서블릿
+   서블릿은 앞에서 구현한 웹 서버의 Controller, HttpRequest, HttpResponse를 추상화해 인터페이스로 정의해 놓은 표준이다.
+ - 서블릿은 Controller와 정확한 역할을 하며, 똑같은 방식으로 동작한다.
+ - doGet() 메소드의 인자로 전달하는 HttpServletRequest, HttpServletResponse는 HttpRequest와 HttpResponse와 일치한다. 
+ - Controller 인터페이스는 서블릿의 Servlet인터페이스, AbstractController는 HttpServlet과 같다. 
+
+
 ## 추가 학습
 ### 로깅
 자바에서는 메세지를 출력하기 위한 방법 중 하나로 System.out.println()을 사용한다. 하지만 이 방법은 메세지를 파일로 출력하기 때문에 비용이 높다. 이런 단점을 보완하기 위해
