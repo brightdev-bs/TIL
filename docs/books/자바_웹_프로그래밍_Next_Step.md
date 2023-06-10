@@ -134,3 +134,22 @@ Content-Length: 20                            ----> 요청 헤더
 ~~~
  -상태 라인 : (HTTP/버전 - 상태코드 - 응답구문)으로 구성되어 있다.
 
+## 추가 학습
+### 로깅
+자바에서는 메세지를 출력하기 위한 방법 중 하나로 System.out.println()을 사용한다. 하지만 이 방법은 메세지를 파일로 출력하기 때문에 비용이 높다. 이런 단점을 보완하기 위해
+로깅 라이브러리를 사용할 수 있다. 
+로그 레벨은 다음과 같다.
+ - TRACE < DEBUG < INFO < WARN < ERROR
+
+자바에서 문자열을 더하는 비용이 크기 때문에, 로깅 라이브러리는 동적인 메세지 구현을 위한 별도의 메소드를 제공한다.
+
+~~~java
+System.out.println("New Client Connect ! Connected IP " + con.getInetAddress() + " Port : " + con.getPort());
+
+log.debug("New Client Connect! Connected IP: {}, Port : {}", con.getInetAddress(), con.getPort());
+~~~
+
+자세한 실습은 다음 링크에서 확인할 수 있다.
+[실습 링크](../../logback/ReadMe.md)
+
+
