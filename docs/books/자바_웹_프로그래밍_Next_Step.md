@@ -148,6 +148,11 @@ Content-Length: 20                            ----> 요청 헤더
  - doGet() 메소드의 인자로 전달하는 HttpServletRequest, HttpServletResponse는 HttpRequest와 HttpResponse와 일치한다. 
  - Controller 인터페이스는 서블릿의 Servlet인터페이스, AbstractController는 HttpServlet과 같다. 
 
+## Ch6. 서블릿/JSP를 활용해 동적인 웹 어플리케이션 개발하기
+### 세션 요구사항 및 실습
+   HTTP는 무상태 프로토콜로 클라이언트와 서버가 연결된 후 상태를 유지하지 않는다. 하지만 웹 애플리케이션은 로그인과 같이 상태를 유지해야하는 경우가 생긴다.
+이와 같이 상태를 유지할 필요가 있을 때 사용할 수 있는 방법이 쿠키헤더를 사용할 수 있다. 하지만 쿠키는 웹 개발에 대한 약간의 관심이 있는 사람이라면 쉽게 분석해서 요청과 응답 헤더를 확인할 수 있다는 단점이 있다.
+이런 쿠키의 단점을 보완하기 위해 세션을 사용할 수 있다. 세션은 상태 값으로 유지하고 싶은 정보를 클라이언트인 브라우저에 저장하는 것이 아니라 서버에 저장한다.  
 
 ## 추가 학습
 ### 로깅
@@ -166,5 +171,3 @@ log.debug("New Client Connect! Connected IP: {}, Port : {}", con.getInetAddress(
 
 자세한 실습은 다음 링크에서 확인할 수 있다.
 [실습 링크](../../logback/ReadMe.md)
-
-
