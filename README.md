@@ -28,6 +28,8 @@
 ## 자바
 1. [이펙티브 자바](effective-java/docs/Main.md)
 2. [JVM](docs/java/JVM.md)
+3. [인터페이스](https://brightmango.tistory.com/entry/Java-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+4. [Thread vs Runnable](https://brightmango.tistory.com/entry/Java-Thread-vs-Runnable)
 
 ## 디자인 패턴
 1. [디자인 패턴](design-pattern/docs/personally/Main.md)
